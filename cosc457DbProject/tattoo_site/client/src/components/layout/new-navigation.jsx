@@ -13,7 +13,7 @@ const NewNavigation = () => {
                     <i class="fa fa-bars fa-2x"></i>
                  </div>
                  <div class="logo">
-                    LOGO
+                    BULLET'S INK
                  </div>
                  <div class="menu">
                     <ul>

@@ -44,19 +44,19 @@ const Footer = () => {
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="https://www.google.com"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/Bullettsink/"><i class="fa fa-facebook"></i></a></li>
+						{/* <li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li> */}
+						<li class="list-inline-item"><a href="https://www.instagram.com/explore/locations/214449204/bullets-ink?hl=en"><i class="fa fa-instagram"></i></a></li>
+						{/* <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li> */}
+						{/* <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li> */}
 					</ul>
 				</div>
 				<hr></hr>
 			</div>	
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
-					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+					{/* <p><u><a href="">Bullet's Ink</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Mount Airy, MD]</p> */}
+					<p class="h6">&copy All right Reversed.... David Was here --><a class="text-green ml-2" href="http://www.hilotech.co" target="_blank">Hilo Technologies</a></p>
 				</div>
 				<hr></hr>
 			</div>	

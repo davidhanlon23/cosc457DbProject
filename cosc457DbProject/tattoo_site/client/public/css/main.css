@@ -6,6 +6,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #e4dfda;
     color: #000;
+    
 }
 
 header {
@@ -40,6 +41,7 @@ main section {
     border-radius: 6px;
     background-color: #eee;
     padding: 10px;
+    
 }
 
 .clearfix { clear: both; }
@@ -194,8 +196,9 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
-    /* background: url('src/img/sampleImages/sample1.jpg') no-repeat 50% 50%;  */
+    /* background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%; */
+    background: url('../imgs/sampleImages/sample3.jpg') no-repeat 50% 50%; 
+    /* background-image: url(../imgs/sampleImages/sample3.jpg); */
     background-size: cover;
 }
 
@@ -222,6 +225,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index: 9999;
 }
 
 nav ul {

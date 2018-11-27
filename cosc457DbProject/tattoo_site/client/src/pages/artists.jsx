@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Inquiry = () => {
+const Artists = () => {
     return (
        <main>
            <section>
-                Hello
+           <h3>Welcome to the Artists Page</h3>
            </section>
        </main>
     );
 };
 
-export default Inquiry;
+export default Artists;

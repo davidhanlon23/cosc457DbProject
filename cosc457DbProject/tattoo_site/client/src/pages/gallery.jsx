@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 //import { BrowserRouter, Route } from 'react-router-dom';
-//import logo from './logo.svg';
-//import '../../css/index.css';
-//import Header from '../../components/layout/header';
 
-class Home extends Component {
+
+class Gallery extends Component {
 
 
   render() {
@@ -14,7 +12,7 @@ class Home extends Component {
       <div className="">
         {/* <Route path ='/' component={Header}/> */}
         <section>
-        <h3>Welcome to the Home Page</h3>
+        <h3>Welcome to the Gallery Page</h3>
         </section>
         
 
@@ -24,4 +22,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Gallery;

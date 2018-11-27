@@ -6,8 +6,10 @@ const Menu = (props) => {
        <nav class = "top-menu">
         <ul>
             {/* <li><NavLink exact ={true} activeClasName='active' to ='/'>Home</NavLink></li> */}
-            <li><NavLink exact ={true} activeClasName='active' to ='/'>Request Info</NavLink></li>
-            <li><NavLink exact ={true} activeClasName='active' to ='/inquiries'>Inquiries</NavLink></li>
+            <li><NavLink exact ={true} activeClasName='active' to ='/'>Home</NavLink></li>
+            <li><NavLink exact ={true} activeClasName='active' to ='/artists'>Artists</NavLink></li>
+            <li><NavLink exact ={true} activeClasName='active' to ='/schedule-appointment'>Schedule Appointment</NavLink></li>
+            <li><NavLink exact ={true} activeClasName='active' to ='/gallery'>Gallery</NavLink></li>
             {/* <li><NavLink exact ={true} activeClasName='active' to ='/about-us'>About Us</NavLink></li> */}
             <li className="tagline">{ props.tagline }</li>
         </ul>

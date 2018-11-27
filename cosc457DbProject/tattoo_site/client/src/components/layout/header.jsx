@@ -8,7 +8,7 @@ const Header = () => {
                 <h1>COSC 484 - Web Apps & JavaScript</h1>
             </div>
             <div class="sub-title">
-                <Menu tagline ="Summer 2018: Classwork / Exercises"/>
+                <Menu tagline =""/>
                 
                
                 <div className="clearfix"></div>

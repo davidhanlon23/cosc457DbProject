@@ -15,8 +15,9 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
                         <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
-                        <li><NavLink exact ={true} to ='/schedule-appointment'><i class="fa fa-angle-double-right"></i> Schedule Appointment</NavLink></li>
+                        <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
+                        <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
                     </ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
@@ -24,8 +25,9 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
                         <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
-                        <li><NavLink exact ={true} to ='/schedule-appointment'><i class="fa fa-angle-double-right"></i> Schedule Appointment</NavLink></li>
+                        <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
+                        <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
                     </ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
@@ -33,9 +35,9 @@ const Footer = () => {
 					<ul class="list-unstyled quick-links">
                         <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
-                        <li><NavLink exact ={true} to ='/schedule-appointment'><i class="fa fa-angle-double-right"></i> Schedule Appointment</NavLink></li>
+                        <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
-						
+						<li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
 					</ul>
 				</div>
 			</div>

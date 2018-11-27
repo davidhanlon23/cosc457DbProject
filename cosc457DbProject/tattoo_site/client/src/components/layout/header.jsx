@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div class="title">
-                <h1>COSC 484 - Web Apps & JavaScript</h1>
+                <h1>Bullets Ink</h1>
             </div>
             <div class="sub-title">
                 <Menu tagline =""/>

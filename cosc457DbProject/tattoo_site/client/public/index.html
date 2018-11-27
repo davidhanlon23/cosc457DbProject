@@ -11,14 +11,35 @@
     
     <link href="%PUBLIC_URL%/css/bootstrap/bootstrap.css" rel="stylesheet">
 
-
+<!--FOOTER-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <link href="%PUBLIC_URL%/css/main.css" rel="stylesheet">
+<!---->
 
+<!--NEW NAVIGATION-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!---->
+<script type="text/javascript">
+    $(document).ready(function() {
+    $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+    });
+});
+$(window).on("scroll", function() {
+    if($(window).scrollTop()) {
+        $('nav').addClass('black');
+    }
+
+    else {
+        $('nav').removeClass('black');
+    }
+})
+</script>
 </head>
 
 <body>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //import nodemailer from 'config.js';
-const ScheduleAppointment = () => {
+const BookOnline = () => {
     return (
         <main>
             <section>
@@ -87,4 +87,4 @@ const ScheduleAppointment = () => {
     }
 };
 
-export default ScheduleAppointment;
+export default BookOnline;

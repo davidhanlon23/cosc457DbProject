@@ -9,8 +9,9 @@ body {
 }
 
 header {
-    font-family: 'Farsan', cursive;
-    background-color: #4357ad;
+    /* font-family: 'Farsan', cursive; */
+    /* background-color: #4357ad; */
+    background-color: #000;
     color: #fff;
 }
 
@@ -28,7 +29,8 @@ main {
 }
 
 header div.sub-title {
-    background-color: #48a9a6;
+    /* background-color: #48a9a6; */
+    background-color: #000;
     font-size: 14px !important;
 }
 
@@ -47,7 +49,7 @@ header div.sub-title {
     /*height: 33px;*/
 }
 
-nav { margin: auto; width: 1024px; }
+/* nav { margin: auto; width: 1024px; }
 
 nav ul {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -76,7 +78,7 @@ nav ul li a {
 
 nav ul li a:hover:not(.active) { background-color: #4357ad; }
 nav ul li a.active { background-color: #4357ad; }
-nav ul li a:visited { color: #fff; }
+nav ul li a:visited { color: #fff; } */
 
 .page-header {
     margin: 20px 0 20px;
@@ -95,7 +97,7 @@ nav ul li a:visited { color: #fff; }
 
 
 
-/* Footer */
+/* Footer CSS*/
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
@@ -171,4 +173,137 @@ section .section-title {
     padding-bottom: 0px;
     margin-bottom: 10px;
 }
+}
+
+
+/*Navigation CSS*/
+nav ul li a:hover:not(.active) { background-color: #4357ad; }
+/* nav ul li a.active { background-color: #4357ad; } */
+nav ul li a:visited { color: #fff; }
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    /* background: url('src/img/sampleImages/sample1.jpg') no-repeat 50% 50%;  */
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+/* nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none !important;
+} */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+    display:block;
+    padding: 6px 16px;
+    text-align: center;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
 }

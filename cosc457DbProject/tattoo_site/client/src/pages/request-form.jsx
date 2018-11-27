@@ -6,7 +6,7 @@ const RequestForm = () => {
         <main>
             <section>
                 <div className="page-header"> 
-                    <h2>*JUDE WAS HERE*Reservation Form</h2>
+                    <h2>*DADDY WAS HERE*Reservation Form</h2>
                 </div>
                 <div className="row">
                     <div className="col-md-6">

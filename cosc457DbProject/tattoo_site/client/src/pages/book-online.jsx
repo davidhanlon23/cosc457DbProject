@@ -31,13 +31,13 @@ const BookOnline = () => {
                                     <option value="Chris">Chris</option>
                                     <option value="Denny">Denny</option>
                                     <option value="Tommy">Tommy</option>
-                                    <option value="Tommy">Ned</option>
-                                    <option value="Tommy">Walter</option>
-                                    <option value="Tommy">Daenerys</option>
-                                    <option value="Tommy">Rick</option>
-                                    <option value="Tommy">Morty</option>
-                                    <option value="Tommy">Peter</option>
-                                    <option value="Tommy">Eric</option>
+                                    <option value="Ned">Ned</option>
+                                    <option value="Walter">Walter</option>
+                                    <option value="Daenerys">Daenerys</option>
+                                    <option value="Rick">Rick</option>
+                                    <option value="Morty">Morty</option>
+                                    <option value="Peter">Peter</option>
+                                    <option value="Eric">Eric</option>
                                    
                                 </select>
                             </div>

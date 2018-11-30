@@ -24,20 +24,19 @@ const BookOnline = () => {
                                 <input type="tel" name="phone" id="phone" placeholder="###-###-####" maxlength="12" className="form-control input-lg" onChange={validatePhone}required/>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="campus">Which Campus are you interested in?</label>
-                                <select className="form-control input-lg" name="campus" id="id" required>
+                                <label htmlFor="Artist">Artist</label>
+                                <select className="form-control input-lg" name="artist" id="id" required>
                                     <option value="" >Please Select...</option>
-                                    <option value="Boulder">Boulder</option>
-                                    <option value="Denver">Denver</option>
-                                    <option value="New York City">New York City</option>
-                                    <option value="Phoenix">Phoenix</option>
-                                    <option value="San Francisco">San Francisco</option>
-                                    <option value="Seattle">Seattle</option>
+                                    <option value="Bullet">Bullet</option>
+                                    <option value="Chris">Chris</option>
+                                    <option value="Denny">Denny</option>
+                                    <option value="Tommy">Tommy</option>
+                                   
                                 </select>
                             </div>
                             <div className="form-group">
-                                <label htmlFor="workshop">Which wokrshop would you like to learn more about?</label>
-                                <input type="text" name="workshop" id="workshop" className="form-control input-lg"/>
+                                <label htmlFor="Artist">Date</label>
+                                <input type="Date" name="date" id="date" placeholder="MM/DD/YYYY" maxlength="10" className="form-control input-lg" required/>
                             </div>
                             <button type="submit" className="btn button btn-lg" onclick={validate}>Request Info</button>
                         </form>

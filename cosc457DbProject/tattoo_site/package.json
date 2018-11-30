@@ -15,6 +15,7 @@
     "epress": "0.0.1-security",
     "express": "^4.16.3",
     "mongodb": "^3.0.10",
-    "nodemailer": "^4.6.7"
+    "nodemailer": "^4.6.7",
+    "react-photo-gallery": "^6.2.2"
   }
 }

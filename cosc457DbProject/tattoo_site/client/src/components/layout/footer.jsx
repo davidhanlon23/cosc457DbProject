@@ -2,6 +2,8 @@ import React from 'react';
 import Menu from './menu';
 import {NavLink} from 'react-router-dom';
 //import bootstrap from '../../css/bootstrap/bootstrap.css';
+const MY_API = 'AIzaSyCftvFVQlonprlXUmTKhLMTGba1eNiiidA'
+let _url = `https://www.google.com/maps/embed/v1/place?key=${MY_API}&q=39.363312,-77.162910`
 
 const Footer = () => {
     return (
@@ -17,20 +19,16 @@ const Footer = () => {
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
                         <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
-                        <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
+                        {/* <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li> */}
                     </ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
+				{/* <div class="col-xs-12 col-sm-8 col-md-8">
 					<h5> Column 2</h5>
-					<ul class="list-unstyled quick-links">
-                        <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
-                        <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
-                        <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
-                        <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
-                        <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
-                    </ul>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4">
+					<iframe frameBorder="0" style={{ width: "100%", height: "850"}} 
+  					  src={_url}>
+ 					 </iframe> 
+				</div> */}
+				{/* <div class="col-xs-12 col-sm-4 col-md-4">
 					<h5> Column 3</h5>
 					<ul class="list-unstyled quick-links">
                         <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
@@ -39,7 +37,7 @@ const Footer = () => {
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
 						<li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li>
 					</ul>
-				</div>
+				</div> */}
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">

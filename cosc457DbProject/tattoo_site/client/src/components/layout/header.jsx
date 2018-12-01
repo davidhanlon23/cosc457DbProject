@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div class="title">
-                <h1>Bullet's Ink</h1>
+                <h1>Bullett's Ink</h1>
             </div>
             <div class="sub-title">
                 <Menu tagline =""/>

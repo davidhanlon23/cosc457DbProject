@@ -27,7 +27,7 @@ const BookOnline = () => {
                                 <label htmlFor="Artist">Artist</label>
                                 <select className="form-control input-lg" name="artist" id="id" required>
                                     <option value="" >Please Select...</option>
-                                    <option value="Bullet">Bullet</option>
+                                    <option value="Bullett">Bullett</option>
                                     <option value="Chris">Chris</option>
                                     <option value="Denny">Denny</option>
                                     <option value="Tommy">Tommy</option>

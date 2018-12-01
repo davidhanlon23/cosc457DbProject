@@ -9,7 +9,7 @@ import BookOnline from './pages/book-online';
 import Artists from './pages/artists';
 import Footer from './components/layout/footer';
 import Gallery from './pages/gallery';
-import Contact from './pages/contact';
+//import Contact from './pages/contact';
 import NewNavigation from './components/layout/new-navigation';
 
 ReactDOM.render(
@@ -20,7 +20,7 @@ ReactDOM.render(
         <Route path ='/book-online' component={BookOnline}/>
         <Route path ='/artists' component={Artists}/>
         <Route path ='/gallery' component={Gallery}/>
-        <Route path ='/contact' component={Contact}/>
+        {/* <Route path ='/contact' component={Contact}/> */}
         <Route path ='/' component={Footer}/>
     </React.Fragment>
 </BrowserRouter>

@@ -13,7 +13,7 @@ const Footer = () => {
 		<div class="container">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5> Column 1</h5>
+					<h5> Quick Links</h5>
 					<ul class="list-unstyled quick-links">
                         <li><NavLink exact ={true} to ='/'><i class="fa fa-angle-double-right"></i> Home</NavLink></li>
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
@@ -22,12 +22,22 @@ const Footer = () => {
                         {/* <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li> */}
                     </ul>
 				</div>
-				{/* <div class="col-xs-12 col-sm-8 col-md-8">
-					<h5> Column 2</h5>
-					<iframe frameBorder="0" style={{ width: "100%", height: "850"}} 
-  					  src={_url}>
- 					 </iframe> 
-				</div> */}
+				<div class="col-xs-12 col-sm-8 col-md-8">
+					<h5> Something relevant here</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					   nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+					   reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+					   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+					   qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit
+					   amet, consectetur adipiscing elit, 
+					   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					   nisi ut aliquip ex ea commodo consequat.
+
+					</p>
+				</div>
 				{/* <div class="col-xs-12 col-sm-4 col-md-4">
 					<h5> Column 3</h5>
 					<ul class="list-unstyled quick-links">
@@ -54,7 +64,7 @@ const Footer = () => {
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
 					{/* <p><u><a href="">Bullet's Ink</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Mount Airy, MD]</p> */}
-					<p class="h6">&copy All right Reversed.... David Was here --><a class="text-green ml-2" href="http://www.hilotech.co" target="_blank">Hilo Technologies</a></p>
+					<p class="h6">This COSC 457 WebApp was constructed by Andrew Louder, Jude Barlow, and David Hanlon</p>
 				</div>
 				<hr></hr>
 			</div>	

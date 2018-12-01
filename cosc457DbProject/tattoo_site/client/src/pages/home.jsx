@@ -22,20 +22,28 @@ class Home extends Component {
         
 
         
-        <div>
-          <h2>WELCOME TO BULLETT'S INK TATTOO & PIERCING</h2>
-          <p> Bullett's Ink is Carrol County's one stop shop
-             for all of your custom tattoo needs. One of our 
-             amazing artists will work with you on an individual 
-             vasis to create a custom piece of art you wont soon regret!! 
-             Stop in and check us out!
-          </p>
+        <div class = "welcome_info">
+          <div class = "col-xs-12 col-sm-6 col-md-6">
+            <h1>WELCOME TO BULLETT'S INK TATTOO & PIERCING</h1>
+          </div>
+
+          <div class = "col-xs-12 col-sm-6 col-md-6">
+            <p> Bullett's Ink is Carrol County's one stop shop
+              for all of your custom tattoo needs. One of our 
+              amazing artists will work with you on an individual 
+              vasis to create a custom piece of art you wont soon regret!! 
+              Stop in and check us out!
+             </p>
+          </div>
         </div>
+        
+        <div class = "welcome_border"></div>
+
 
         <div class = "contact_info">
-          <h1>CONTACT US</h1>
+          <h2>CONTACT US</h2>
           <div>
-            <h2>ADDRESS</h2>
+            <h3>ADDRESS</h3>
 
             <div id ="bulletts_location">
               <span class="glyphicon glyphicon-map-marker">   1603 Ridgeside Dr, Mount Airy, MD 21771</span>
@@ -55,7 +63,7 @@ class Home extends Component {
         </div>
 
         <div class = "hours_of_operation">
-          <h2>Hours of Operation</h2>
+          <h3>Hours of Operation</h3>
             <p>Monday:    10:00 AM - 8:00 PM</p>
             <p>Tuesday:   10:00 AM - 8:00 PM </p>
             <p>Wednesday: 12:00 PM - 8:00 PM</p>

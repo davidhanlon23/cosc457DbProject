@@ -5,50 +5,54 @@ const BookOnline = () => {
     return (
         <main>
             <section>
-                <div className="page-header"> 
-                    <h2>Reservation Form</h2>
-                </div>
-                <div className="row">
-                    <div className="col-md-6">
-                        <form action="/api/requests" method="post" >
-                            <div className="form-group">
-                                <input type="text" name="firstName" id="firstName" placeholder="First Name" className="form-control input-lg" required/>
-                            </div>
-                            <div className="form-group">
-                                <input type="text" name="lastName" id="lastName" placeholder="Last Name" className="form-control input-lg" required/>
-                            </div>
-                            <div className="form-group">
-                                <input type="email" name="email" id="email" placeholder="Email Address" className="form-control input-lg" onChange={validateEmail} required/>
-                            </div>
-                            <div className="form-group">
-                                <input type="tel" name="phone" id="phone" placeholder="###-###-####" maxlength="12" className="form-control input-lg" onChange={validatePhone}required/>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="Artist">Artist</label>
-                                <select className="form-control input-lg" name="artist" id="id" required>
-                                    <option value="" >Please Select...</option>
-                                    <option value="Bullet">Bullet</option>
-                                    <option value="Chris">Chris</option>
-                                    <option value="Denny">Denny</option>
-                                    <option value="Tommy">Tommy</option>
-                                    <option value="Ned">Ned</option>
-                                    <option value="Walter">Walter</option>
-                                    <option value="Daenerys">Daenerys</option>
-                                    <option value="Rick">Rick</option>
-                                    <option value="Morty">Morty</option>
-                                    <option value="Peter">Peter</option>
-                                    <option value="Eric">Eric</option>
-                                   
-                                </select>
-                            </div>
-                            <div className="form-group">
-                                <label htmlFor="Artist">Date</label>
-                                <input type="Date" name="date" id="date" placeholder="MM/DD/YYYY" maxlength="10" className="form-control input-lg" required/>
-                            </div>
-                            <button type="submit" className="btn button btn-lg" onclick={validate}>Request Info</button>
-                        </form>
+                <div class="form_style">
+                    <div className="page-header"> 
+                        <h2>Reservation Form</h2>
                     </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <form action="/api/requests" method="post" >
+                                <div className="form-group">
+                                    <input type="text" name="firstName" id="firstName" placeholder="First Name" className="form-control input-lg" required/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="text" name="lastName" id="lastName" placeholder="Last Name" className="form-control input-lg" required/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" className="form-control input-lg" onChange={validateEmail} required/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="tel" name="phone" id="phone" placeholder="###-###-####" maxlength="12" className="form-control input-lg" onChange={validatePhone}required/>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="Artist">Artist</label>
+                                    <select className="form-control input-lg" name="artist" id="id" required>
+                                        <option value="" >Please Select...</option>
+                                        <option value="Bullett">Bullett</option>
+                                        <option value="Chris">Chris</option>
+                                        <option value="Denny">Denny</option>
+                                        <option value="Tommy">Tommy</option>
+                                        <option value="Ned">Ned</option>
+                                        <option value="Walter">Walter</option>
+                                        <option value="Daenerys">Daenerys</option>
+                                        <option value="Rick">Rick</option>
+                                        <option value="Morty">Morty</option>
+                                        <option value="Peter">Peter</option>
+                                        <option value="Eric">Eric</option>
+                                    
+                                    </select>
+                                </div>
+                                <div className="form-group">
+                                    <label htmlFor="Artist">Date</label>
+                                    <input type="Date" name="date" id="date" placeholder="MM/DD/YYYY" maxlength="10" className="form-control input-lg" required/>
+                                </div>
+                                <button type="submit" className="btn button btn-lg" onclick={validate}>Request Info</button>
+                            </form>
+                        </div>
+                    </div>
+                
                 </div>
+                
             </section>
         </main>
        

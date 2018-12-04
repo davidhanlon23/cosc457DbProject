@@ -19,7 +19,8 @@ const Footer = () => {
                         <li><NavLink exact ={true} to ='/artists'><i class="fa fa-angle-double-right"></i> Artists</NavLink></li>
                         <li><NavLink exact ={true} to ='/book-online'><i class="fa fa-angle-double-right"></i> Book Online</NavLink></li>
                         <li><NavLink exact ={true} to ='/gallery'><i class="fa fa-angle-double-right"></i>Gallery</NavLink></li>
-                        {/* <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li> */}
+						<li><NavLink exact ={true} to ='/admin'><i class="fa fa-angle-double-right"></i>Admin</NavLink></li>
+					    {/* <li><NavLink exact ={true} to ='/contact'><i class="fa fa-angle-double-right"></i>Contact</NavLink></li> */}
                     </ul>
 				</div>
 				<div class="col-xs-12 col-sm-8 col-md-8">
